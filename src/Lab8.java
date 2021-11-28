@@ -14,8 +14,7 @@ public class Lab8 {
         System.out.println("-------------");
         System.out.println();
 
-        //ad.2
-        int [] tab1 = {1, 2, 3, 5, 1, 6, 7};
+
 
 
     }
