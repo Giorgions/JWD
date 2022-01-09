@@ -1,9 +1,6 @@
 public class MarsApplication {
     public static void main(String[] args) {
-        MarsRobot spirit = new MarsRobot();
-        spirit.status = "Eksploracja";
-        spirit.speed = 2;
-        spirit.temperature = -60;
+        MarsRobot spirit = new MarsRobot("eksploracja", 2, -60);
 
         spirit.showAttributes();
         System.out.println();
